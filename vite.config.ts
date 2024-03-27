@@ -7,5 +7,5 @@ installGlobals()
 
 export default defineConfig({
   assetsInclude: ["**/*.JPG"],
-  plugins: [remix(), tsconfigPaths()],
+  plugins: [remix({ ssr: false }), tsconfigPaths()],
 })
