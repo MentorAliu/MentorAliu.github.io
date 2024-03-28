@@ -7,7 +7,13 @@ export default {
     "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      extend: {
+        backgroundImage: {
+          "hero-pattern": "url('/assets/hero_photo.jpg')",
+        },
+      },
+    },
   },
   darkMode: "class",
   plugins: [nextui({ defaultTheme: "dark" })],

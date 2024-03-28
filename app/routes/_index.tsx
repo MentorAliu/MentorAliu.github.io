@@ -12,18 +12,30 @@ export default function Index() {
   return (
     <>
       <Header />
-      <main className="flex h-screen">
-        <article className="mt-52 mx-auto w-[1024px] px-5">
+      <main className="flex h-[calc(100vh-65px)]">
+        <article className="md:flex sm-14 justify-between mt-52 mx-auto w-[1024px] px-5">
           <div>
-            <p className="text-emerald-700 font-mono font-semibold text-large">
-              Hi, my name is
-            </p>
-            <h1>Mentor</h1>
-            <h1 className="ml-20 mt-2">Aliu</h1>
+            <div>
+              <p className="text-emerald-500 font-mono font-semibold text-large">
+                Hi, my name is
+              </p>
+              <h1>Mentor</h1>
+              <h1 className="ml-20 mt-2">Aliu</h1>
+            </div>
+            <div>
+              <p className="font-mono font-semibold text-xl mt-4">
+                Frontend Engineer
+              </p>
+              <p className="mt-2 w-80">
+                I specialize in building high-quality applications with a focus
+                on performance and accessibility.
+              </p>
+            </div>
           </div>
-          <div></div>
+          <div>right side</div>
         </article>
       </main>
+      <div>hello world</div>
     </>
   )
 }
