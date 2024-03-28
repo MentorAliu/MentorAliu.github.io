@@ -12,7 +12,7 @@ export default function Index() {
   return (
     <>
       <Header />
-      <main className="flex h-[calc(100vh-65px)]">
+      <main className="flex h-[calc(100vh-65px)] bg-[url('assets/hero_photo.jpg')] bg-center bg-no-repeat bg-cover">
         <article className="md:flex sm-14 justify-between mt-52 mx-auto w-[1024px] px-5">
           <div>
             <div>
@@ -32,7 +32,7 @@ export default function Index() {
               </p>
             </div>
           </div>
-          <div>right side</div>
+          <div className="sm:mt-12">right side</div>
         </article>
       </main>
       <div>hello world</div>
